@@ -1,0 +1,75 @@
+@media screen{
+#outer {
+width: screen width - 40;
+}
+#inner {
+text-align: center;
+justify-content: center;
+align-items: center;
+width: 650px; margin: 5% auto;
+color: white;
+font-weight: bold;
+border-radius: 10px;
+}
+}
+body{
+background-color: black;
+color: white;
+}
+textarea{
+resize: none;
+width: 300px;
+height: 150px;
+background-color: white;
+color: black;
+font-weight: bold;
+border-radius: 5px;
+}
+.translated{
+text-align: left;
+width: 300px;
+height: 155px;
+background-color: white;
+color: black;
+border-radius: 5px;
+}
+#left-column{float:left}
+#right-column{float:right}
+button{
+font-family: 'Poppins', sans-serif;
+    border: 1px solid #222;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .25s linear;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    width: 188px;
+    height: 40px;
+    margin-right: 5px;
+}
+select{
+font-family: 'Poppins', sans-serif;
+    border: 1px solid #222;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .25s linear;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    width: 188px;
+    height: 40px;
+    margin-right: 5px;
+}
+button:hover{
+background-color: rgb(20, 255, 20);
+}
+.translate{
+margin-top: 200px;
+width 50%;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
