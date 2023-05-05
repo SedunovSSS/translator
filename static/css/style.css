@@ -24,6 +24,7 @@ background-color: white;
 color: black;
 font-weight: bold;
 border-radius: 5px;
+overflow-y:scroll;
 }
 .translated{
 text-align: left;
@@ -32,6 +33,7 @@ height: 155px;
 background-color: white;
 color: black;
 border-radius: 5px;
+overflow-y:scroll;
 }
 #left-column{float:left}
 #right-column{float:right}
@@ -72,4 +74,18 @@ width 50%;
 text-align: center;
 align-items: center;
 justify-content: center;
+}
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: orange;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: darkorange;
 }
